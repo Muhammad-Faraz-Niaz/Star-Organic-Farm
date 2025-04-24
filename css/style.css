@@ -1,0 +1,54 @@
+:root {
+    --main-color: #4CAF50;
+    --accent-color: #FFC107;
+    --bg-light: #f1f8f4;
+    --dark-color: #2d2d2d;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--bg-light);
+  }
+  
+  .navbar {
+    background-color: white !important;
+  }
+  
+  .navbar-brand img {
+    height: 10vh;
+  }
+  
+  .navbar-nav .nav-link.active,
+  .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+    font-weight: 600;
+  }
+  
+  section {
+    padding: 50px 0;
+  }
+  
+  h2 {
+    color: var(--main-color);
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 20px 0;
+  }
+  
+  button,
+  .btn-primary {
+    background-color: var(--main-color);
+    border-color: var(--main-color);
+  }
+  
+  button:hover,
+  .btn-primary:hover {
+    background-color: #3e9442;
+    border-color: #3e9442;
+  }
+  
